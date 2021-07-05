@@ -1,0 +1,66 @@
+/* Global Css */
+body{
+    font-family: 'Berkshire Swash', cursive;
+    margin: 0;
+}
+/* Global CSS End */
+
+/* Common CSS */
+section{
+    display: flex;
+    margin-bottom: 150px;
+}
+
+h1{
+    font-size: 50px;
+}
+
+
+h3{
+    font-size: 23px;
+}
+
+p{
+    font-size: 18px;
+}
+
+.button-link{
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    padding: 15px 40px;
+    margin-top: 7px;
+    font-weight: 700;
+    background-image: linear-gradient(to right,tomato, orange);
+    display: inline-block;
+    border-radius: 5px;
+}
+
+.button-link:hover{
+    background-image: linear-gradient(to left,tomato, orange);
+    
+}
+/* Common CSS End */
+
+/* Section-1 */
+.section-1{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+
+.half-width{
+    width: 50%;
+    margin-left: 20px;
+}
+
+.change-color {
+    color: tomato;
+}
+
+
+.half-width img {
+    width: 80%;
+}
+
+
+/* End of Section-1 */
