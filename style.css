@@ -6,7 +6,7 @@ body{
 /* Global CSS End */
 
 /* Common CSS */
-section{
+.flex-container{
     display: flex;
     margin-bottom: 150px;
 }
@@ -73,3 +73,44 @@ p{
 }
 
 /* End of Section-2 */
+
+/* Section-3 */
+.section-3{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: 0 185px;
+}
+
+.experience{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    box-shadow: 10px 10px 38px gray;
+    height: 55vh;
+    border-radius: 10px;
+}
+
+#fullstack{
+    border-left: 7px solid;
+    border-image: linear-gradient(tomato, orange);
+    border-image-slice: 1;
+}
+
+#baby{
+    border-left: 7px solid;
+    border-image: linear-gradient(cyan, blue);
+    border-image-slice: 1;
+}
+
+.exp-title{
+    font-size: 45px;
+}
+
+/* End of Section-3 */
+
+/* Footer Start */
+footer p{
+    text-align: center;
+}
+/* Footer End */
