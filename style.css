@@ -64,3 +64,12 @@ p{
 
 
 /* End of Section-1 */
+
+/* Section-2 */
+.section-2{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+/* End of Section-2 */
